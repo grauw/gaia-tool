@@ -20,7 +20,7 @@ Project information
   * Author: Laurens Holst <laurens@grauw.nl>
   * Site: <http://www.grauw.nl/projects/gaia-tool/>
   * Source: <https://hg.sr.ht/~grauw/gaia-tool>
-  * License: Apache License, Version 2.0
+  * License: Simplified BSD License
 
 The Gaia Tool is a free tool to view and edit the settings of a Roland GAIA
 SH-01 synthesizer connected to your PC or Mac.
@@ -28,7 +28,7 @@ SH-01 synthesizer connected to your PC or Mac.
 It is written in Java and should work on all Java SE 6 plaforms. Specific
 builds for Windows and Mac are also generated.
 
-The tool is Apache 2.0 licensed, which means that you are free to use the source
+The tool is BSD licensed, which means that you are free to use the source
 code in any way you wish as long as attribution is given to the original project
 and its author(s). For details, please consult the LICENSE file.
 
