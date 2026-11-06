@@ -27,9 +27,9 @@
 	</organization>
 	
 	<scm>
-		<connection>scm:hg:https://hg.sr.ht/~grauw/gaia-tool</connection>
-		<developerConnection>scm:hg:https://hg.sr.ht/~grauw/gaia-tool</developerConnection>
-		<url>https://hg.sr.ht/~grauw/gaia-tool</url>
+		<connection>scm:git:https://github.com/grauw/gaia-tool.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/grauw/gaia-tool.git</developerConnection>
+		<url>https://github.com/grauw/gaia-tool</url>
 	</scm>
 	
 	<properties>

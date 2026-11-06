@@ -19,7 +19,7 @@ Project information
 
   * Author: Laurens Holst <laurens@grauw.nl>
   * Site: <http://www.grauw.nl/projects/gaia-tool/>
-  * Source: <https://hg.sr.ht/~grauw/gaia-tool>
+  * Source: <https://github.com/grauw/gaia-tool>
   * License: Simplified BSD License
 
 The Gaia Tool is a free tool to view and edit the settings of a Roland GAIA
@@ -50,10 +50,9 @@ contributing:
 
   * Share your work in progress.
     
-    Once you have code to share, send me a link to your Mercurial repository so
-    I can see your changes. If you need a place to put it, sourcehut.org offers
-    hosting. I can then provide code review comments and catch problems
-    early, saving you time.
+    Once you have code to share, open a draft pull request on GitHub so I can
+    see your changes. I can then provide code review comments and catch
+    problems early, saving you time.
 
   * Adhere to the coding style.
 
@@ -129,44 +128,21 @@ Dependencies
     Download: <http://maven.apache.org/download.html>  
     Version check: `mvn --version`
 
-  * Mercurial
-    
-    The source code of this project is managed with the Mercurial SCM.
-    
-    Download: <http://hg-scm.org/>  
-    Version check: `hg version`
+  * Git
+
+    The source code of this project is managed with Git.
+
+    Download: <https://git-scm.com/>
+
+    Version check: `git --version`
 
 
 Getting the source code
 -----------------------
 
-The source is managed using the Mercurial SCM, you can retrieve it with the
-following command:
+Clone the project with Git:
 
-    hg clone https://hg.sr.ht/~grauw/gaia-tool
-
-This will download the project source code into the gaia-tool directory.
-
-If you’re new to Mercurial, here are some resources to get you started:
-
-  <http://mercurial.selenic.com/wiki/BeginnersGuides>  
-  <http://hginit.com/>
-
-In a nutshell: Mercurial is a distributed version control system (DVCS), which
-means that the complete source code repository including all history is cloned
-onto your hard drive. You can perform all version control operations on that
-local clone, such as committing and viewing change history. When you are ready
-to share your changes you push them to a public repository, which can then be
-reviewed and merged back into the main project repository.
-
-Advantages of this distributed model are that all operations are fast, you can
-continue working when you have no internet connection or the server is down, you
-can experiment without fear of messing up the main repository, and you don’t
-need to ask me for commit access.
-
-The command line interface of Mercurial is very simple and intuitive, but I
-would also recommend the TortoiseHg GUI if you’re on Windows or Linux. On
-Mac OS X, I have good experiences with Atlassian’s SourceTree.
+    git clone https://github.com/grauw/gaia-tool.git
 
 
 Build instructions
